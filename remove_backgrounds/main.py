@@ -7,6 +7,7 @@ def rm_backgrounds():
     list_of_extensions = ['*.jpeg','*.jpg']
     all_files = []
 
+
     for ext in list_of_extensions:
         all_files.extend(Path('input_imgs').glob(ext))
 
